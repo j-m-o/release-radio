@@ -1,0 +1,11 @@
+{
+  "incidents": [
+    {
+      "id": "INC-07",
+      "service": "checkout",
+      "severity": "SEV2",
+      "opened_at": "2026-11-03T10:12:00Z",
+      "resolved_at": "2026-11-05T12:40:00Z"
+    }
+  ]
+}

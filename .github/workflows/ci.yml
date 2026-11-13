@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate
+        run: python scripts/validate.py
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Data contract (demo)
+        run: python skills/release-radio/scripts/check_data.py skills/release-radio/assets/demo
+      - name: Demo track
+        run: python skills/release-radio/scripts/radio.py demo --out out/radio
+      - name: Build skill zip
+        run: python scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-radio
+          path: |
+            dist/release-radio.zip
+            out/

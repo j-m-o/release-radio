@@ -1,0 +1,68 @@
+[
+ {
+  "t0": 0.0,
+  "t1": 6.2,
+  "kind": "theme",
+  "segment": null
+ },
+ {
+  "t0": 6.2,
+  "t1": 22.076,
+  "kind": "voice",
+  "segment": "sign-on"
+ },
+ {
+  "t0": 22.776,
+  "t1": 36.149,
+  "kind": "voice",
+  "segment": "bars-1-4"
+ },
+ {
+  "t0": 36.849,
+  "t1": 50.708,
+  "kind": "voice",
+  "segment": "bars-5-6"
+ },
+ {
+  "t0": 51.408,
+  "t1": 59.56,
+  "kind": "voice",
+  "segment": "bars-7-7"
+ },
+ {
+  "t0": 60.26,
+  "t1": 68.187,
+  "kind": "voice",
+  "segment": "bars-8-8"
+ },
+ {
+  "t0": 68.887,
+  "t1": 70.887,
+  "kind": "chime",
+  "segment": "bars-9-10"
+ },
+ {
+  "t0": 71.087,
+  "t1": 92.877,
+  "kind": "voice",
+  "segment": "bars-9-10"
+ },
+ {
+  "t0": 93.577,
+  "t1": 108.661,
+  "kind": "voice",
+  "segment": "bars-11-14"
+ },
+ {
+  "t0": 109.361,
+  "t1": 124.078,
+  "kind": "voice",
+  "segment": "sign-off"
+ },
+ {
+  "t0": 124.078,
+  "t1": 137.078,
+  "kind": "theme",
+  "segment": null
+ }
+]

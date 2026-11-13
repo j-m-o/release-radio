@@ -1,0 +1,982 @@
+{
+  "runs": [
+    {
+      "id": "r-0101",
+      "started_at": "2026-10-26T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0102",
+      "started_at": "2026-10-26T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0103",
+      "started_at": "2026-10-26T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0104",
+      "started_at": "2026-10-26T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0105",
+      "started_at": "2026-10-26T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0106",
+      "started_at": "2026-10-26T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0107",
+      "started_at": "2026-10-26T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0108",
+      "started_at": "2026-10-26T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-01fb",
+      "started_at": "2026-10-26T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0201",
+      "started_at": "2026-10-27T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0202",
+      "started_at": "2026-10-27T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0203",
+      "started_at": "2026-10-27T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0204",
+      "started_at": "2026-10-27T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0205",
+      "started_at": "2026-10-27T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0206",
+      "started_at": "2026-10-27T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0207",
+      "started_at": "2026-10-27T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0208",
+      "started_at": "2026-10-27T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-02fb",
+      "started_at": "2026-10-27T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0301",
+      "started_at": "2026-10-28T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0302",
+      "started_at": "2026-10-28T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0303",
+      "started_at": "2026-10-28T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0304",
+      "started_at": "2026-10-28T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0305",
+      "started_at": "2026-10-28T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0306",
+      "started_at": "2026-10-28T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0307",
+      "started_at": "2026-10-28T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0308",
+      "started_at": "2026-10-28T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-03fb",
+      "started_at": "2026-10-28T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0401",
+      "started_at": "2026-10-29T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0402",
+      "started_at": "2026-10-29T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0403",
+      "started_at": "2026-10-29T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0404",
+      "started_at": "2026-10-29T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0405",
+      "started_at": "2026-10-29T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0406",
+      "started_at": "2026-10-29T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0407",
+      "started_at": "2026-10-29T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0408",
+      "started_at": "2026-10-29T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0409",
+      "started_at": "2026-10-29T16:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-04fb",
+      "started_at": "2026-10-29T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0501",
+      "started_at": "2026-10-30T08:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0502",
+      "started_at": "2026-10-30T09:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0503",
+      "started_at": "2026-10-30T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0504",
+      "started_at": "2026-10-30T11:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0505",
+      "started_at": "2026-10-30T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0506",
+      "started_at": "2026-10-30T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0507",
+      "started_at": "2026-10-30T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0508",
+      "started_at": "2026-10-30T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": [
+        "test_cart_total_rounding_b"
+      ]
+    },
+    {
+      "id": "r-0509",
+      "started_at": "2026-10-30T16:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-05fb",
+      "started_at": "2026-10-30T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0601",
+      "started_at": "2026-10-31T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0602",
+      "started_at": "2026-10-31T09:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0603",
+      "started_at": "2026-10-31T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0604",
+      "started_at": "2026-10-31T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0605",
+      "started_at": "2026-10-31T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0606",
+      "started_at": "2026-10-31T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": [
+        "test_cart_total_rounding_b"
+      ]
+    },
+    {
+      "id": "r-0607",
+      "started_at": "2026-10-31T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": [
+        "test_cart_total_rounding_b"
+      ]
+    },
+    {
+      "id": "r-0608",
+      "started_at": "2026-10-31T15:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-06fb",
+      "started_at": "2026-10-31T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-07fb",
+      "started_at": "2026-11-01T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0801",
+      "started_at": "2026-11-02T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0802",
+      "started_at": "2026-11-02T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0803",
+      "started_at": "2026-11-02T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0804",
+      "started_at": "2026-11-02T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0805",
+      "started_at": "2026-11-02T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0806",
+      "started_at": "2026-11-02T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0807",
+      "started_at": "2026-11-02T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0808",
+      "started_at": "2026-11-02T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-08fb",
+      "started_at": "2026-11-02T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0901",
+      "started_at": "2026-11-03T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0902",
+      "started_at": "2026-11-03T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0903",
+      "started_at": "2026-11-03T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0904",
+      "started_at": "2026-11-03T11:05:00Z",
+      "branch": "main",
+      "status": "failed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0905",
+      "started_at": "2026-11-03T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0906",
+      "started_at": "2026-11-03T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0907",
+      "started_at": "2026-11-03T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0908",
+      "started_at": "2026-11-03T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-0909",
+      "started_at": "2026-11-03T16:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-09fb",
+      "started_at": "2026-11-03T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1001",
+      "started_at": "2026-11-04T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1002",
+      "started_at": "2026-11-04T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1003",
+      "started_at": "2026-11-04T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": [
+        "test_cart_total_rounding_b"
+      ]
+    },
+    {
+      "id": "r-1004",
+      "started_at": "2026-11-04T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1005",
+      "started_at": "2026-11-04T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1006",
+      "started_at": "2026-11-04T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1007",
+      "started_at": "2026-11-04T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1008",
+      "started_at": "2026-11-04T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-10fb",
+      "started_at": "2026-11-04T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1101",
+      "started_at": "2026-11-05T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1102",
+      "started_at": "2026-11-05T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1103",
+      "started_at": "2026-11-05T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1104",
+      "started_at": "2026-11-05T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1105",
+      "started_at": "2026-11-05T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1106",
+      "started_at": "2026-11-05T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1107",
+      "started_at": "2026-11-05T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1108",
+      "started_at": "2026-11-05T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-11fb",
+      "started_at": "2026-11-05T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1201",
+      "started_at": "2026-11-06T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1202",
+      "started_at": "2026-11-06T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1203",
+      "started_at": "2026-11-06T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1204",
+      "started_at": "2026-11-06T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1205",
+      "started_at": "2026-11-06T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1206",
+      "started_at": "2026-11-06T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1207",
+      "started_at": "2026-11-06T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1208",
+      "started_at": "2026-11-06T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1209",
+      "started_at": "2026-11-06T16:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-12fb",
+      "started_at": "2026-11-06T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1301",
+      "started_at": "2026-11-07T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1302",
+      "started_at": "2026-11-07T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1303",
+      "started_at": "2026-11-07T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1304",
+      "started_at": "2026-11-07T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1305",
+      "started_at": "2026-11-07T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1306",
+      "started_at": "2026-11-07T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1307",
+      "started_at": "2026-11-07T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1308",
+      "started_at": "2026-11-07T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-13fb",
+      "started_at": "2026-11-07T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1401",
+      "started_at": "2026-11-08T08:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1402",
+      "started_at": "2026-11-08T09:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1403",
+      "started_at": "2026-11-08T10:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1404",
+      "started_at": "2026-11-08T11:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1405",
+      "started_at": "2026-11-08T12:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "search",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1406",
+      "started_at": "2026-11-08T13:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "payments",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1407",
+      "started_at": "2026-11-08T14:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "accounts",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1408",
+      "started_at": "2026-11-08T15:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "checkout",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-1409",
+      "started_at": "2026-11-08T16:05:00Z",
+      "branch": "main",
+      "status": "passed",
+      "service": "catalog",
+      "flaky_failures": []
+    },
+    {
+      "id": "r-14fb",
+      "started_at": "2026-11-08T12:00:00Z",
+      "branch": "feature/new-banner",
+      "status": "failed",
+      "flaky_failures": []
+    }
+  ]
+}

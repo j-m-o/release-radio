@@ -1,0 +1,438 @@
+{
+  "title": "The Week Checkout Came Back",
+  "subject": "Storefront",
+  "window": {
+    "start": "2026-10-26",
+    "end": "2026-11-08",
+    "days": 14
+  },
+  "bars": [
+    {
+      "bar": 1,
+      "date": "2026-10-26",
+      "state": "steady",
+      "facts": {
+        "deploys": 3,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.4,
+        "services": [
+          "catalog",
+          "checkout",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 8 main-branch runs passed",
+        "3 deploys (catalog, checkout, search)"
+      ]
+    },
+    {
+      "bar": 2,
+      "date": "2026-10-27",
+      "state": "steady",
+      "facts": {
+        "deploys": 4,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.5,
+        "services": [
+          "accounts",
+          "catalog",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 8 main-branch runs passed",
+        "4 deploys (accounts, catalog, payments, search)"
+      ]
+    },
+    {
+      "bar": 3,
+      "date": "2026-10-28",
+      "state": "steady",
+      "facts": {
+        "deploys": 3,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.4,
+        "services": [
+          "accounts",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 8 main-branch runs passed",
+        "3 deploys (accounts, payments, search)"
+      ]
+    },
+    {
+      "bar": 4,
+      "date": "2026-10-29",
+      "state": "steady",
+      "facts": {
+        "deploys": 4,
+        "runs": 9,
+        "failed_runs": 0,
+        "burn": 0.6,
+        "services": [
+          "accounts",
+          "catalog",
+          "checkout",
+          "payments"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 9 main-branch runs passed",
+        "4 deploys (accounts, catalog, checkout, payments)"
+      ]
+    },
+    {
+      "bar": 5,
+      "date": "2026-10-30",
+      "state": "failed",
+      "facts": {
+        "deploys": 3,
+        "runs": 9,
+        "failed_runs": 3,
+        "burn": 0.9,
+        "services": [
+          "accounts",
+          "catalog",
+          "checkout"
+        ],
+        "flaky": [
+          "test_cart_total_rounding_b"
+        ],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "3 of 9 main-branch runs failed",
+        "run r-0501 failed (accounts)",
+        "run r-0502 failed (checkout)",
+        "run r-0504 failed (search)",
+        "flaky test_cart_total_rounding_b",
+        "3 deploys (accounts, catalog, checkout)"
+      ]
+    },
+    {
+      "bar": 6,
+      "date": "2026-10-31",
+      "state": "failed",
+      "facts": {
+        "deploys": 2,
+        "runs": 8,
+        "failed_runs": 2,
+        "burn": 0.8,
+        "services": [
+          "catalog",
+          "checkout"
+        ],
+        "flaky": [
+          "test_cart_total_rounding_b"
+        ],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "2 of 8 main-branch runs failed",
+        "run r-0602 failed (catalog)",
+        "run r-0608 failed (search)",
+        "flaky test_cart_total_rounding_b",
+        "2 deploys (catalog, checkout)"
+      ]
+    },
+    {
+      "bar": 7,
+      "date": "2026-11-01",
+      "state": "freeze",
+      "facts": {
+        "deploys": 0,
+        "runs": 0,
+        "failed_runs": 0,
+        "burn": 0.3,
+        "services": [],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "deploy freeze: no deploys and no CI runs"
+      ]
+    },
+    {
+      "bar": 8,
+      "date": "2026-11-02",
+      "state": "steady",
+      "facts": {
+        "deploys": 3,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.5,
+        "services": [
+          "accounts",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 8 main-branch runs passed",
+        "3 deploys (accounts, payments, search)"
+      ]
+    },
+    {
+      "bar": 9,
+      "date": "2026-11-03",
+      "state": "incident",
+      "facts": {
+        "deploys": 2,
+        "runs": 9,
+        "failed_runs": 1,
+        "burn": 2.3,
+        "services": [
+          "accounts",
+          "payments"
+        ],
+        "flaky": [],
+        "opened": [
+          {
+            "id": "INC-07",
+            "service": "checkout",
+            "at": "2026-11-03T10:12:00Z"
+          }
+        ],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": [
+          {
+            "id": "d-09rb",
+            "service": "checkout",
+            "at": "2026-11-03T14:00:00Z"
+          }
+        ]
+      },
+      "evidence": [
+        "INC-07 opened (checkout)",
+        "rollback d-09rb (checkout)",
+        "SLO burn 2.3x (over 1.0)",
+        "1 of 9 main-branch runs failed",
+        "run r-0904 failed (catalog)",
+        "2 deploys (accounts, payments)"
+      ]
+    },
+    {
+      "bar": 10,
+      "date": "2026-11-04",
+      "state": "incident",
+      "facts": {
+        "deploys": 1,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 1.6,
+        "services": [
+          "accounts"
+        ],
+        "flaky": [
+          "test_cart_total_rounding_b"
+        ],
+        "opened": [],
+        "resolved": [],
+        "still_open": [
+          {
+            "id": "INC-07",
+            "service": "checkout"
+          }
+        ],
+        "rollbacks": []
+      },
+      "evidence": [
+        "INC-07 still open (checkout)",
+        "SLO burn 1.6x (over 1.0)",
+        "all 8 main-branch runs passed",
+        "flaky test_cart_total_rounding_b",
+        "1 deploy (accounts)"
+      ]
+    },
+    {
+      "bar": 11,
+      "date": "2026-11-05",
+      "state": "recovered",
+      "facts": {
+        "deploys": 2,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.9,
+        "services": [
+          "catalog",
+          "checkout"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [
+          {
+            "id": "INC-07",
+            "service": "checkout",
+            "hours": 50
+          }
+        ],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "INC-07 resolved after 50h",
+        "all 8 main-branch runs passed",
+        "2 deploys (catalog, checkout)"
+      ]
+    },
+    {
+      "bar": 12,
+      "date": "2026-11-06",
+      "state": "recovered",
+      "facts": {
+        "deploys": 4,
+        "runs": 9,
+        "failed_runs": 0,
+        "burn": 0.5,
+        "services": [
+          "accounts",
+          "catalog",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 9 main-branch runs passed",
+        "4 deploys (accounts, catalog, payments, search)"
+      ]
+    },
+    {
+      "bar": 13,
+      "date": "2026-11-07",
+      "state": "recovered",
+      "facts": {
+        "deploys": 4,
+        "runs": 8,
+        "failed_runs": 0,
+        "burn": 0.4,
+        "services": [
+          "accounts",
+          "checkout",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 8 main-branch runs passed",
+        "4 deploys (accounts, checkout, payments, search)"
+      ]
+    },
+    {
+      "bar": 14,
+      "date": "2026-11-08",
+      "state": "recovered",
+      "facts": {
+        "deploys": 5,
+        "runs": 9,
+        "failed_runs": 0,
+        "burn": 0.4,
+        "services": [
+          "accounts",
+          "catalog",
+          "checkout",
+          "payments",
+          "search"
+        ],
+        "flaky": [],
+        "opened": [],
+        "resolved": [],
+        "still_open": [],
+        "rollbacks": []
+      },
+      "evidence": [
+        "all 9 main-branch runs passed",
+        "5 deploys (accounts, catalog, checkout, payments, search)"
+      ]
+    }
+  ],
+  "totals": {
+    "deploys": 40,
+    "runs": 109,
+    "failed_runs": 6,
+    "incidents": 1
+  },
+  "static": [],
+  "sources": [
+    "ci_runs",
+    "deployments",
+    "incidents",
+    "manifest",
+    "slo_daily"
+  ],
+  "source_problems": {},
+  "provenance": {
+    "deployments": {
+      "source": "github deployments (demo)",
+      "fetched_at": "2026-11-08T22:00:00Z"
+    },
+    "ci_runs": {
+      "source": "github actions (demo)",
+      "fetched_at": "2026-11-08T22:00:00Z"
+    },
+    "incidents": {
+      "source": "incident tracker (demo)",
+      "fetched_at": "2026-11-08T22:00:00Z"
+    },
+    "slo_daily": {
+      "source": "observability SLO export (demo)",
+      "fetched_at": "2026-11-08T22:00:00Z"
+    }
+  },
+  "review": {
+    "status": "pending_human_review",
+    "note": "Every line of the broadcast is backed by The Record."
+  }
+}
