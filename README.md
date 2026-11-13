@@ -45,7 +45,7 @@ Runs of the same kind of day become one segment. The full rules are in [`referen
 
 ## A real announcer
 
-The demo broadcast uses Clyde, the vintage male radio announcer in the ElevenLabs voice library. Two ways to get a real voice:
+The demo broadcast uses Clyde, the vintage male radio announcer in the [ElevenLabs](https://elevenlabs.io) voice library. Two ways to get a real voice:
 
 **One recorded read.** Generate `radio/script.txt` as a single read in any voice tool (it is one paragraph per segment), convert it to WAV and pass it in. The mixer splits it at the pauses between paragraphs and checks every piece against its word count, so a bad split fails loudly instead of putting the wrong words under a caption.
 
@@ -96,7 +96,7 @@ Agents gather, rules decide, a human approves. The agent never writes a line.
 
 ## Roadmap
 
-- **v1.1** A PR bulletin: a short broadcast for one pull request, posted as an advisory PR comment with the player as a build artifact. A weekly Slack post with the broadcast.
+- **v1.1** A PR bulletin: a short broadcast for one pull request, posted as an advisory PR comment with the player as a build artifact. A weekly [Slack](https://slack.com) post with the broadcast.
 - **v1.2** Longer windows (a quarter as a season of shows) and more segment kinds: a release going out, a security advisory, a record streak.
 - **v2** Tea Leaves Radio: the Quality Tea Leaves reading delivered on the air. The Bestiary Hour: a field report on the Bug Bestiary's species.
 
