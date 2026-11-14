@@ -10,6 +10,10 @@ WREL's Release Hour: two weeks of deploys, CI runs, incidents and SLO burn, read
   <img src="docs/player.png" width="820" alt="The WREL Release Radio player mid-broadcast: a cathedral radio, the urgent bulletin about incident number 7 on the air and a 14-day timeline with days 9 and 10 lit up in gold">
 </p>
 
+
+https://github.com/user-attachments/assets/49529658-1911-4a5c-81be-0024ca82ebc6
+
+
 ## Why this exists
 
 A delivery dashboard tells you there was an incident on the 3rd. Release Radio has a man in a good suit interrupt the program to tell you, at 10:12 Greenwich time, that incident number 7 struck the checkout service. People skim charts. They listen to a bulletin.
