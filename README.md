@@ -2,6 +2,8 @@
 
 **Good evening, ladies and gentlemen. Your release is on the air.**
 
+> **WREL: Weekly Risks, Evidence and Learnings.** *We Report Every Line.*
+
 WREL's Release Hour: two weeks of deploys, CI runs, incidents and SLO burn, read on the air by a 1940s radio announcer. A jazz-age theme plays him in, a chime sounds before every urgent bulletin and every word he says comes straight from the record.
 
 [![CI](https://github.com/j-m-o/release-radio/actions/workflows/ci.yml/badge.svg)](https://github.com/j-m-o/release-radio/actions/workflows/ci.yml)
@@ -100,7 +102,7 @@ Agents gather, rules decide, a human approves. The agent never writes a line.
 
 ## Roadmap
 
-- **v1.1** A PR bulletin: a short broadcast for one pull request, posted as an advisory PR comment with the player as a build artifact. A weekly [Slack](https://slack.com) post with the broadcast.
+- **v1.1** Clyde's new sign-off, "This is W. R. E. L. We report every line. Good night.", and The Record renamed The Weekly Release Evidence Log. A PR bulletin: a short broadcast for one pull request, posted as an advisory PR comment with the player as a build artifact. A weekly [Slack](https://slack.com) post with the broadcast.
 - **v1.2** Longer windows (a quarter as a season of shows) and more segment kinds: a release going out, a security advisory, a record streak.
 - **v2** Tea Leaves Radio: the Quality Tea Leaves reading delivered on the air. The Bestiary Hour: a field report on the Bug Bestiary's species.
 
